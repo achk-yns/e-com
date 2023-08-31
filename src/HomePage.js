@@ -1,5 +1,5 @@
 import Header from "./Components/Header";
-
+import FeaturedSection from "./Components/ProductsComponents/FeaturedSection";
 import SlideImage from "./Components/ProductsComponents/SlideImage";
 import TitleAnim from "./Components/TitleAnim";
 
@@ -28,7 +28,9 @@ function HomePage({ products }) {
       <div className="container bg-light">
         <SlideImage  />
       </div>
-      
+      <div className="container">
+        <FeaturedSection products={products}/>
+      </div>
       
     </div>
   );

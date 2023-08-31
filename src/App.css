@@ -73,3 +73,56 @@ ul a {
     font-size: 16px;
     color: #666; /* Slightly lighter gray text color */
 }
+/* FeaturedSection.css */
+.featured-section {
+    padding: 20px;
+  }
+  
+  .product-grid,
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-card,
+  .blog-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img,
+  .blog-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card h3,
+  .blog-card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .product-card p,
+  .blog-card p {
+    margin-top: 10px;
+  }
+  
+  .product-card button,
+  .blog-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover,
+  .blog-card button:hover {
+    background-color: #0056b3;
+  }
+  
